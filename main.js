@@ -90,7 +90,7 @@ function displayError(message) {
   const errorDisplay = document.createElement("p");
   errorDisplay.textContent = message;
   errorDisplay.classList.add("errorDisplay");
-  card.textContent = ""; // Clear previous weather info
-  card.style.display = "flex"; // Ensure the card is displayed
-  card.appendChild(errorDisplay); // Append the error message to the card
+  card.textContent = ""; 
+  card.style.display = "flex"; 
+  card.appendChild(errorDisplay); 
 }
